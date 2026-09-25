@@ -59,6 +59,8 @@ Any other MCP host uses the same URL: `https://mcp.usetyton.com/mcp`.
 
 The audit works on that URL with no key. After they subscribe, the site card on [usetyton.com](https://usetyton.com) gives a pairing code. The agent calls `connect` with that code and gets a server key for that project only.
 
+People can paste [this setup prompt](agent-setup-prompt.md) into the agent. It tells the agent to connect Tyton, keep the key out of chat, and stop before it changes tracking.
+
 ## Tools
 
 ### `begin_audit`
@@ -79,7 +81,11 @@ Read the saved audit and the report link.
 
 ### `read_docs`
 
-Read Tyton's notes on install, events, dedup, the pixel, privacy, and pricing. Pricing only when someone asks.
+Read Tyton's notes before coaching someone. Topic `meta_setup` is the nine-step Meta checklist: business, dataset, website, Conversions API, and test events, one step at a time. Topic `website_management` explains how to switch the dashboard website and how to delete one. Also install, events, dedup, the pixel, privacy, and pricing. Pricing only when someone asks. This is read-only and does not prove events arrived.
+
+### `delete_connected_project`
+
+Permanently delete only the website connected to this server key, including its keys, setup, and stored event history. It does not cancel the subscription, edit the live site, or delete Meta's dataset. Call it only after the person confirms that exact URL.
 
 ### `connect`
 

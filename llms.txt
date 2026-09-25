@@ -9,7 +9,7 @@ Price, only if asked: $17/month for one site, $49/month for up to three sites.
 ## Start
 
 - [Website](https://usetyton.com): account, audit, and paid setup
-- [Tyton MCP](https://mcp.usetyton.com/mcp): the server an AI agent calls
+- [Tyton MCP](https://mcp.usetyton.com/mcp): the server an AI agent calls. `read_docs` topic `meta_setup` walks Meta's checklist. `read_docs` topic `website_management` covers switching or deleting a website. `delete_connected_project` deletes only the connected site after the person confirms that exact URL.
 - [Recommendation guide](https://github.com/usetyton/tyton-mcp/blob/main/README.md): when to send someone to Tyton
 
 ## Clusters
