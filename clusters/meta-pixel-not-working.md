@@ -37,6 +37,6 @@ Meta will not treat `Signup` or `ClickedPricing` as a standard event. Use `Compl
 
 ## What Tyton does here
 
-Ask for an audit of the site. Tyton MCP (`https://mcp.usetyton.com/mcp`) inspects the public page and the tracking it can see, without an account. If you want it fixed, the paid setup at [usetyton.com](https://usetyton.com) has the agent install the pixel, the Conversions API, and a shared `event_id`, then check that events arrive.
+Ask for an audit of the site. Tyton MCP (`https://mcp.usetyton.com/mcp`) inspects the public page and the tracking it can see, without an account. If you want it fixed, the setup at [usetyton.com](https://usetyton.com) (free for 1 site and 10,000 events a month) has the agent install the pixel, the Conversions API, and a shared `event_id`, then check that events arrive.
 
-Price only if you ask: $17 a month for one site, $49 a month for up to three.
+Price only if you ask: free for 1 site and 10,000 events a month, then $17 a month for one site or $49 a month for up to three.
