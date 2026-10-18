@@ -1,0 +1,19 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.usetyton/tyton",
+  "title": "Tyton",
+  "description": "Audit and set up Meta Pixel and the Conversions API from your AI agent.",
+  "websiteUrl": "https://usetyton.com",
+  "repository": {
+    "url": "https://github.com/usetyton/tyton-mcp",
+    "source": "github",
+    "id": "1386337066"
+  },
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.usetyton.com/mcp"
+    }
+  ]
+}
